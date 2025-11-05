@@ -1,0 +1,27 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 62.5%;
+    font-weight: normal;
+    color: #FFF;
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 130rem;
+    height: 0 auto;
+}
