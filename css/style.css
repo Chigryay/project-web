@@ -27,7 +27,7 @@ input {
     cursor: pointer;
 }
 
-button {
+.button {
     padding: 1rem 3rem;
     border-radius: 5rem;
     font-size: 1.6rem;
@@ -207,8 +207,10 @@ header {
 }
 
 .process__img {
+    margin-right: 2rem;
     width: 9rem;
     height: 4.5rem;
+    transform: rotate(45deg);
 }
 
 .process__title {
@@ -302,6 +304,7 @@ header {
     margin-bottom: 4rem;
     max-width: 19rem;
     max-height: 19rem;
+    border-radius: 50%;
 }
 
 .command__members_item_fullName {
@@ -324,8 +327,47 @@ header {
     max-width: 14.3rem;
     max-height: 4.4rem;
     font-weight: 400;
-    font-size: 1.6rem;
     line-height: 150%;
     background: transparent;
     border: 1px solid #fff;
 }
+
+.assembly_wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 81.3rem;
+}
+
+.assembly__title {
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 140%;
+    margin-bottom: 3rem;
+}
+
+.assembly__text {
+    margin-bottom: 4.52rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 160%;
+    opacity: 0.5;
+}
+
+.assembly__links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;
+    width: 29rem;
+}
+
+.assembly__links a {
+    padding: 1.3rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);;
+}
+
+
