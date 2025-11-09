@@ -9,11 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
+
     <title>Document</title>
 </head>
 
 <body>
+    <div class="back-black">
+    </div>
     <header class="header">
         <div class="header__wrap">
             <a href="#" class="header__logo">
@@ -25,7 +27,7 @@
                     <a href="#">Процесс работы</a>
                     <a href="#">Команда</a>
                 </nav>
-                <button type="button" class="button header__button">Оставить заявку</button>
+                <button type="button" class="button header__button modal__buton">Оставить заявку</button>
             </div>
         </div>
     </header>
@@ -51,7 +53,7 @@
                         <div class="timer__text">Секунд</div>
                     </div>
                 </div>
-                <button class="button main-dispay__button">Оставить заявку</button>
+                <button class="button main-dispay__button modal__buton">Оставить заявку</button>
             </div>
             <div class="main-display__background">
                 <img src="images/main-screen__bgc.png" alt="">
@@ -156,7 +158,7 @@
                 <div class="assembly_wrap">
                     <h2 class="assembly__title">Закажите свою уникальную сборку</h2>
                     <p class="assembly__text">Мы свяжемся с вами, чтобы уточнить детали заказа</p>
-                    <button class="button main-dispay__button">Оставить заявку</button>
+                    <button class="button modal__buton main-dispay__button">Оставить заявку</button>
                     <div class="assembly__links">
                         <div class="assembly__item">
                             <img src="images/vk.svg" alt="">
@@ -174,7 +176,33 @@
                 </div>
             </div>
         </section>
+        <div class="modal">
+            <div class="modal__wrap">
+                <div class="icons-cross">
+                    <img src="images/cross.svg" alt="">
+                </div>
+                <h2 class="modal__title">Заявка на сборку ПК</h2>
+                <div class="modal__text">
+                    Мы свяжемся с вами, чтобы обсудить детали заказа
+                </div>
+                <form action="" class="modal__form">
+                    <div class="modal__input">
+                        <input type="text" placeholder="Как вас зовут">
+                    </div>
+                    <div class="modal__input">
+                        <input type="text" placeholder="Номер телефона">
+                    </div>
+                    <div class="modal__input">
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                </form>
+                <button class="button modal__buton main-dispay__button">Отправить</button>
+            </div>
+
+        </div>
+
     </main>
 </body>
+<script src="js/main.js"></script>
 
 </html>
